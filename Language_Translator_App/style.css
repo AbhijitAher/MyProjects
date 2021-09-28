@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0; */
+}
+body{
+    background: url("https://mcdn.wallpapersafari.com/medium/70/50/lc4sbC.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+}
+#maincontainer {
+    width: 60%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#top{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center
+}
+#i-o{
+    width: 100%;
+    clear: both;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+#input_div{
+    width: 45%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+#output_div{
+    width: 45%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.082);
+    color: rgb(190, 188, 188);
+    font-size: 20px;
+}
+#buttons{
+    text-align: center;
+}
+select{
+    font-size:20px;
+    width: 200px;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 15px auto;
+    color: rgb(119, 116, 116);
+    background-color: transparent;
+}
+option{
+    
+    background-color: transparent;
+}
+label{
+    text-transform:uppercase;
+}
+button{
+    font-size:25px;
+    width: 200px;
+    padding: 4px;
+    margin: 10px auto;
+    color: rgb(204, 89, 89);
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 15px;
+}
