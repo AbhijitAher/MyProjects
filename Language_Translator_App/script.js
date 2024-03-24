@@ -38,7 +38,7 @@ function getInput(){
 
 async function translate() {
 
-    const res = await fetch("https://libretranslate.de/translate", {
+    const res = await fetch("https://libretranslate.com/translate", {
       method: "POST",
       body: JSON.stringify({
         q: getInput(),
