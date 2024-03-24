@@ -4,7 +4,7 @@
 
 // getting the language metadata from the api by using fetch and appending it as options for the language selector element
 async function getAllLanguages(){
-    let res = await fetch("https://libretranslate.de/languages");
+    let res = await fetch("https://libretranslate.com/languages");
     let langData = await res.json();
     // console.log(langData);
     appendLanguages(langData);
